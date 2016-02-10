@@ -1,6 +1,11 @@
+
 def using_times
-	#your code here
+  spell = "Wingardium Leviosa"
+	7.times do
+    puts "#{spell}"
+  end
 end
+
 
 
 

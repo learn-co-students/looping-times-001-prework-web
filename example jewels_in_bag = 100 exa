@@ -1,0 +1,42 @@
+jewels_in_bag = 100
+ 
+3.times do 
+  puts "Hiding 10 stolen jewels."
+  jewels_in_bag = jewels_in_bag - 10
+end
+ 
+# => 3 (return value)
+ 
+puts "We have #{jewels_in_bag} jewels still to hide!"
+ 
+ 
+# > "Hiding 10 stolen jewels."
+# > "Hiding 10 stolen jewels."
+# > "Hiding 10 stolen jewels."
+ 
+# > "We have 70 jewels still to hide!"
+ 
+# => nil (return value)
+ 
+
+
+ jewels_in_bag = 100
+ 
+3.times do 
+  puts "Hiding 10 stolen jewels."
+  jewels_in_bag = jewels_in_bag - 10
+  puts "Now there are only #{jewels_in_bag} jewels left to hide!"
+end
+# => 3 (return value)
+ 
+puts "We have #{jewels_in_bag} jewels still to hide!"
+# => nil (return value)
+ 
+# > "Hiding 10 stolen jewels."
+# > "Now there are only 90 jewels left to hide!"
+# > "Hiding 10 stolen jewels."
+# > "Now there are only 80 jewels left to hide!"
+# > "Hiding 10 stolen jewels."
+# > "Now there are only 70 jewels left to hide!"
+ 
+# > "We have 70 jewels still to hide!

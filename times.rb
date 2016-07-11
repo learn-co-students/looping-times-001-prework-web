@@ -1,5 +1,5 @@
-def using_times
+def using_times(charm)
 	7.times do
-		puts "Wingardium Leviosa"
-	end
+		puts "#{charm}"
+end
 end

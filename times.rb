@@ -1,7 +1,9 @@
 def using_times
-	#your code here
+	charm = "Wingardium Leviosa"
+	7.times do
+		puts charm
+		charm
+	end
 end
 
-
-
-
+using_times

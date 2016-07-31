@@ -1,7 +1,5 @@
 def using_times
-	#your code here
+	7.times do |variable|
+		puts "Wingardium Leviosa"
+	end
 end
-
-
-
-

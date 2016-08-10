@@ -109,5 +109,4 @@ We're still struggling to master that levitation charm. Since we need to keep pr
 1. Fork and clone this lab.
 2. Run the test suite with the `learn` command. 
 3. You'll be coding your solution in `times.rb`: 
-
-  * Fill out the content of the `using_times` method so that calling it will `puts` the desired phrase, `"Wingardium Leviosa"` seven times by using the `times` keyword.  
+  * Fill out the content of the `using_times` method so that calling it will `puts` the desired phrase, `"Wingardium Leviosa"` seven times by using the `times` keyword.
